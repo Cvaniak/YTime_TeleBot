@@ -4,6 +4,8 @@ import isodate
 from dotenv import load_dotenv
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from googleapiclient.discovery import build
+import logging
+
 load_dotenv()
 
 service = build("youtube", "v3", developerKey=os.getenv("YT_KEY"))
