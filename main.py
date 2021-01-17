@@ -31,7 +31,6 @@ def echo(update, context):
             start_id = mess_t.find("v=")+2
             end_id = mess_t.find("&", start_id)
             id_v = mess_t[start_id:end_id]
-            print(id_v)
             request = service.videos().list(part="snippet,contentDetails", id=id_v)
             response = request.execute()
             duration = response["items"][0]["contentDetails"]["duration"]
