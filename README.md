@@ -8,4 +8,4 @@ Then add file ```.env``` with:
 TOKEN="BOT TOKEN FROM TELEGRAM WEBSITE"
 YT_KEY="KEY FROM GOOGLE CONSOLE"
 ```
-Then run with ```python3 main.py
+Then run with ```python3 main.py```
