@@ -29,7 +29,8 @@ def echo(update, context):
     try:
         if mess_t.find("youtube.com/watch?v="):
             start_id = mess_t.find("v=")+2
-            end_id = mess_t.find("&", start_id)
+            # end_id = mess_t.find("&", start_id)
+            end_id = start_id + 11 # YT ID should be fixed to 11
             id_v = mess_t[start_id:end_id]
             request = service.videos().list(part="snippet,contentDetails", id=id_v)
             response = request.execute()
