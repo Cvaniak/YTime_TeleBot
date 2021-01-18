@@ -1,8 +1,8 @@
-# YTime_TeleBot
-Bot that sends you title and duration of YouTube Video! You can find this bot on Telegram [@duration_ytbot](https://web.telegram.org/#/im?p=%40duration_ytbot)!  
-
+<img align="left" src="https://github.com/Cvaniak/YTime_TeleBot/blob/main/avatar.png?raw=true" width="120"/> <h1> [@duration_ytbot](https://web.telegram.org/#/im?p=%40duration_ytbot) </h1>
+<span>Bot that sends you title and duration of YouTube Video!
+You can find this bot on Telegram [@duration_ytbot](https://web.telegram.org/#/im?p=%40duration_ytbot)! </span>
+<br>
 # Localy
----
 First install ```pip install -r requirements.txt```  
 Then add file ```.env``` with:
 ```
